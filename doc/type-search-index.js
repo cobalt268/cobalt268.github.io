@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"weather","l":"GeoJson"},{"p":"weather","l":"GridpointForecast"},{"p":"weather","l":"Office"},{"p":"weather","l":"Point"},{"p":"weather","l":"Scale"}];updateSearchResults();
