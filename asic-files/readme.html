@@ -1,0 +1,12 @@
+<h1 id="wristwatch-controller-asic">Wristwatch Controller ASIC</h1>
+<h2 id="cse-30342---digital-integrated-circuits---university-of-notre-dame">CSE 30342 - Digital Integrated Circuits - University of Notre Dame</h2>
+<h3 id="group-members">Group Members</h3>
+<ul>
+<li>Gabe Hinrichs (<a href="mailto:&#x67;&#x68;&#105;&#x6e;&#114;&#x69;&#x63;&#x68;&#64;&#110;&#100;&#46;&#101;&#x64;&#x75;">&#x67;&#x68;&#105;&#x6e;&#114;&#x69;&#x63;&#x68;&#64;&#110;&#100;&#46;&#101;&#x64;&#x75;</a>)</li>
+<li>Ben Walsh (<a href="mailto:&#98;&#x77;&#x61;&#108;&#x73;&#x68;&#x37;&#x40;&#x6e;&#x64;&#46;&#101;&#x64;&#x75;">&#98;&#x77;&#x61;&#108;&#x73;&#x68;&#x37;&#x40;&#x6e;&#x64;&#46;&#101;&#x64;&#x75;</a>)</li>
+<li>AJ Sullivan (<a href="mailto:&#x61;&#115;&#117;&#x6c;&#108;&#105;&#50;&#55;&#x40;&#x6e;&#x64;&#x2e;&#x65;&#x64;&#x75;">&#x61;&#115;&#117;&#x6c;&#108;&#105;&#50;&#55;&#x40;&#x6e;&#x64;&#x2e;&#x65;&#x64;&#x75;</a>)</li>
+<li>Will Stotz (<a href="mailto:&#119;&#x73;&#116;&#111;&#116;&#122;&#64;&#110;&#100;&#46;&#x65;&#100;&#x75;">&#119;&#x73;&#116;&#111;&#116;&#122;&#64;&#110;&#100;&#46;&#x65;&#100;&#x75;</a>)</li>
+</ul>
+<h3 id="project-description">Project Description</h3>
+<p>We have created an ASIC chip that implements the functionality of a 24-hour wristwatch with an alarm. Users can set the time to any hour and minute. The seconds place can be zeroed like a normal consumer watch. They can also set any hour and minute to be the desired alarm time. Once that time is reached, the alarm will remain active until cleared. The watch outputs to a conventional, addressable, four-digit seven-segment display, a photo of the external circuit is attached. The time is kept by a 32kHz oscillator and a counter ticking up at each clock signal and adding a second every 32,768 ticks.</p>
+<p>The included test bench sets the alarm to 00:02 and the time to 23:51. During the minute 23:54 the seconds are zeroed making that minute appear noticably longer. All digits are displayed including the rollover from 23:59 to 00:00. The alarm triggers at 00:02 and is reset about a minute later.</p>
